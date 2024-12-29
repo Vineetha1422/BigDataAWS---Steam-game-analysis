@@ -1,6 +1,9 @@
 Steam-game-analysis using AWS : Project report in pdf
+
 my_manifest : manifest file for connecting S3 bucket to QuickSight in JSON
+
 QuickSight Dashboard : Visualizations dashboard pdf
+
 scripts : Pyspark scripts used throughout the project
   |
   |__ S3_load_data.py : Loading dataset from S3
