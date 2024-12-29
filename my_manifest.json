@@ -1,0 +1,12 @@
+{
+  "fileLocations": [
+    {
+      "URIPrefixes": [
+        "https://s3-us-east-1.amazonaws.com/bda-mini-project-bucket/dataset/games_transformed.csv/"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "textqualifier": "\""
+  }
+}
