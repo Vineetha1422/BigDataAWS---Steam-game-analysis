@@ -1,4 +1,4 @@
-#🎮 Steam Games Market Analysis Using AWS Cloud & Machine Learning  
+## 🎮 Steam Games Market Analysis Using AWS Cloud & Machine Learning  
 **Unlocking insights into 71K+ games to optimize pricing, engagement & distribution strategies** 
 
 ## 🌟 Overview  
