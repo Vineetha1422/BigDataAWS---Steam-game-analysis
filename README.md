@@ -40,14 +40,22 @@ This project analyzes Steam's $200B+ gaming ecosystem using AWS cloud infrastruc
 | R² Score           | 0.788         | 
 
 ## 3. 📸 Visual Insights  
-**Platform Distribution**  
-![Platforms]([https://via.placeholder.com/600x400.png/0000FF/FFFFFF?text=Windows+54K+Mac+2.1K+Linux+1.7K](https://github.com/Vineetha1422/BigDataAWS---Steam-game-analysis/blob/main/QuickSight%20Dashboard.pdf))  
+A dashboard using AWS Quicksight was created and these are the key insights identified:
+
+### 1. Price vs Engagement Correlation  
+**Pattern**: Free games showed 80% higher engagement (1,761 vs 980 avg positive ratings) despite lower average playtime (12.7 vs 18.4 hours).
+
+### 2. Release Strategy Optimization  
+**Monthly Trends**:  
+- March releases: 6,730 games (peak) → 14% lower avg revenue  
+- November releases: 5,412 games → 22% higher avg revenue  
+*Recommendation*: Avoid Q1 saturation, target holiday releases
+
+
 
 ## 4. ⚙️ Automation and Monitoring 
 **Daily Workflow**  
-1. **00:00**: Cron-triggered PySpark ETL  
-2. **02:00**: SageMaker model retraining  
-3. **04:00**: QuickSight dashboard refresh  
+At **00:00**: Cron-triggered PySpark ETL → SageMaker model retraining → QuickSight dashboard refresh.
 
 *Monitoring*: Email alerts for pipeline failures via AWS SNS.
   
@@ -58,10 +66,6 @@ This project analyzes Steam's $200B+ gaming ecosystem using AWS cloud infrastruc
 | Avg Game Price        | $7.21         | 78% under $10                   |
 | Free Game Engagement  | 1,761 ratings | 80% > Paid games                |
 | Windows Exclusives    | 54,997        | 76.7% market share              |
-
-### ML Performance  
-![Model Metrics](https://via.placeholder.com/600x300.png/000/fff?text=R²+0.788+MAE+2.59+RMSE+3.42)  
-*SageMaker Autopilot outperformed manual models by 12% in accuracy*.  
 
 
 ## Files details
