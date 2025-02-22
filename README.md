@@ -41,7 +41,7 @@ This project analyzes Steam's $200B+ gaming ecosystem using AWS cloud infrastruc
 
 ## 3. 📸 Visual Insights  
 **Platform Distribution**  
-![Platforms](https://via.placeholder.com/600x400.png/0000FF/FFFFFF?text=Windows+54K+Mac+2.1K+Linux+1.7K)  
+![Platforms]([https://via.placeholder.com/600x400.png/0000FF/FFFFFF?text=Windows+54K+Mac+2.1K+Linux+1.7K](https://github.com/Vineetha1422/BigDataAWS---Steam-game-analysis/blob/main/QuickSight%20Dashboard.pdf))  
 
 ## 4. ⚙️ Automation and Monitoring 
 **Daily Workflow**  
